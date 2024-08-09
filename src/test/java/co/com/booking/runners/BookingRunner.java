@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/booking.feature",
         glue = "co.com.booking.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = "@Login"
+        tags = "@Reserva"
 )
 
 public class BookingRunner {

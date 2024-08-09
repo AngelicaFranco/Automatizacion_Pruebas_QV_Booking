@@ -40,6 +40,9 @@ public class BookingTask implements Task {
         actor.attemptsTo(Click.on(BookingPage.FILTRO_PRECIO_BAJO));
         actor.attemptsTo(Click.on(BookingPage.SELECCION_HOTEL));
         actor.attemptsTo(SwitchToNewTab.switchToNewTab());
+        System.out.println("Nombre del hotel: "+BookingPage.NOMBRE_HOTEL.resolveFor(actor).getText());
+        System.out.println("Dirección del hotel: "+BookingPage.DIRECCION.resolveFor(actor).getText());
+        System.out.println("Puntuación del hotel: "+BookingPage.PUNTUACION.resolveFor(actor).getText());
 
     }
 

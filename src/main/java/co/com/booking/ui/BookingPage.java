@@ -59,5 +59,11 @@ public class BookingPage {
     public static final Target SELECCION_HOTEL = Target.the("Seleccion hotel mas barato").locatedBy("(//div[@class='e01df12ddf a0914461b0 d46a3604b5 ba1c6fdc7f f550b7da28 b9a2fd8068 cb4a416743'])[1]");
 
     public static final Target ASERCION = Target.the("Asercion").locatedBy("//*[text()='Vista general']");
+
+    public static final Target NOMBRE_HOTEL = Target.the("Nombre del hotel").locatedBy("//h2[@class='af32860db5 pp-header__title']");
+
+    public static final Target DIRECCION = Target.the("Dirección del hotel").locatedBy("//span[@data-component='tooltip']");
+
+    public static final Target PUNTUACION = Target.the("Puntuación del hotel").locatedBy("(//div[@class='a447b19dfd'])[2]");
 }
 
